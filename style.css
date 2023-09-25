@@ -1,9 +1,16 @@
-
+*{
+    
+}
+body{
+    background-color: #D2E0FB;
+    
+}
 main{
+    border-radius: 10px;
     background-color: white;
     border: 1px solid black;
-    width: 600px;
-    height: 70vh;
+    width: 650px;
+    height: 470px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -12,12 +19,20 @@ main{
 }
 
 main .step-page{
+   
     background-image: url(./img/bg-sidebar-desktop.svg);
     width: 250px;
-    height: 60vh;
+    height: 430px;
     background-position: center;
-    padding-top: 0;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    margin-left: 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
 }
 main .step-page ul li{
-    
+    color: white;
 }
