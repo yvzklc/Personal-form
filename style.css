@@ -1,17 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
 main{
     background-color: white;
     border: 1px solid black;
     width: 600px;
     height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 main .step-page{
     background-image: url(./img/bg-sidebar-desktop.svg);
-    width: 12vw;
+    width: 250px;
     height: 60vh;
-    margin: 3rem;
+    background-position: center;
+    padding-top: 0;
+}
+main .step-page ul li{
+    
 }
