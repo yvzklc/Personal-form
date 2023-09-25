@@ -26,7 +26,7 @@ main .step-page{
     height: 430px;
     background-position: center;
     margin-bottom: 10px;
-    border-radius: 10%;
+    border-radius: 5%;
     margin-left: 15px;
     position: absolute;
     top: 50%;
@@ -39,7 +39,71 @@ main .step-page ul li{
     line-height: 20px;
     font-size: 15px;
     list-style-type: none;
+    margin-left: 10px;
 }
 main .step-page ul li span{
     color: #B4B4B3;
+}
+main .step-page ul li .number1{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+    
+}
+main .step-page ul li .number2{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 22%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step-page ul li .number3{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 36%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step-page ul li .number4{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 49%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+main .step-page ul li .number{
+    color: white;
+    border: 1px solid white;
+}
+
+main .step-page ul li .number1:hover{
+    opacity: 0.75;
+}
+main .step-page ul li .number2:hover{
+    background-color: blueviolet;
+}
+main .step-page ul li .number3:hover{
+    background-color: blueviolet;
+}
+main .step-page ul li .number4:hover{
+    background-color: blueviolet;
 }
