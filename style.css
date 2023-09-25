@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color: white;
+    border: 1px solid black;
+    width: 600px;
+    height: 70vh;
+}
+
+main .step-page{
+    background-image: url(./img/bg-sidebar-desktop.svg);
+    width: 12vw;
+    height: 60vh;
+    margin: 3rem;
+}
