@@ -1,145 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*{
-    
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
 }
-body{
-    background-color: #D2E0FB;
-    font-family: 'Lato', sans-serif;
+body {
+  background-color: #d2e0fb;
+  font-family: "Lato", sans-serif;
 }
-main{
-    border-radius: 10px;
-    background-color: white;
-    
-    width: 650px;
-    height: 470px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-main .step-page{
-   
-    background-image: url(./img/bg-sidebar-desktop.svg);
-    width: 250px;
-    height: 430px;
-    background-position: center;
-    margin-bottom: 10px;
-    border-radius: 5%;
-    margin-left: 15px;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-
-}
-main .step-page ul li{
-    color: rgb(245, 245, 245);
-    line-height: 20px;
-    font-size: 15px;
-    list-style-type: none;
-    margin-left: 10px;
-}
-main .step-page ul li span{
-    color: #B4B4B3;
-}
-main .step-page ul li .number1{
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border: 1px solid black;
-    position: absolute;
-    top: 8%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-    background-color: blueviolet;
-    
-}
-main .step-page ul li .number2{
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border: 1px solid black;
-    position: absolute;
-    top: 22%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-}
-main .step-page ul li .number3{
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border: 1px solid black;
-    position: absolute;
-    top: 36%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-}
-main .step-page ul li .number4{
-    border-radius: 100%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border: 1px solid black;
-    position: absolute;
-    top: 49%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-}
-main .step-page ul li .number{
-    color: white;
-    border: 1px solid white;
+main {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: -1px 10px 20px 4px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: -1px 10px 20px 4px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: -1px 10px 20px 4px rgba(0, 0, 0, 0.46);
+  width: 650px;
+  height: 470px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-main .step-page ul li .number1:hover{
-    opacity: 0.75;
+main .step-page {
+  background-image: url(./img/bg-sidebar-desktop.svg);
+  width: 250px;
+  height: 430px;
+  background-position: center;
+  margin-bottom: 10px;
+  border-radius: 5%;
+  margin-left: 15px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
 }
-main .step-page ul li .number2:hover{
-    background-color: blueviolet;
+main .step-page ul li {
+  color: rgb(245, 245, 245);
+  line-height: 20px;
+  font-size: 15px;
+  list-style-type: none;
+  margin-left: 10px;
 }
-main .step-page ul li .number3:hover{
-    background-color: blueviolet;
+main .step-page ul li span {
+  color: #b4b4b3;
 }
-main .step-page ul li .number4:hover{
-    background-color: blueviolet;
+main .step-page ul li .number1 {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 8%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+  background-color: blueviolet;
+}
+main .step-page ul li .number2 {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 22%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+}
+main .step-page ul li .number3 {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 36%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+}
+main .step-page ul li .number4 {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 49%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+}
+main .step-page ul li .number {
+  color: white;
+  border: 1px solid white;
 }
 
-main .form-page{
-    width: 320px;
-    height: 430px;
-    margin-left: 310px;
-    margin-top: 23px;
-    border-radius: 5px;
-    color: rgb(30, 30, 119);
+main .step-page ul li .number1:hover {
+  opacity: 0.75;
 }
-main .form-page p{
-    font-size: 12px;
-    color: gray;
+main .step-page ul li .number2:hover {
+  background-color: blueviolet;
 }
-
-main .form-page input{
-    width: 275px;
-    border-radius: 5px;
-    padding: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.664);
+main .step-page ul li .number3:hover {
+  background-color: blueviolet;
+}
+main .step-page ul li .number4:hover {
+  background-color: blueviolet;
 }
 
-main .form-page .btn{
-    color: white;
-    width: 100px;
-    background-color: rgb(4, 4, 37);
-    position: absolute;
-    top: 85%;
-    left: 78%;
+main .form-page {
+  width: 320px;
+  height: 430px;
+  margin-left: 310px;
+  margin-top: 23px;
+  border-radius: 5px;
+  color: rgb(30, 30, 119);
 }
-main .form-page .btn:hover{
-    background-color: blue;
-    cursor: pointer;
-    box-shadow: 10px 10px 18px 0px rgba(36,43,222,0.75);
--webkit-box-shadow: 10px 10px 18px 0px rgba(36,43,222,0.75);
--moz-box-shadow: 10px 10px 18px 0px rgba(36,43,222,0.75);
+main .form-page p {
+  font-size: 12px;
+  color: gray;
+}
+
+main .form-page input {
+  width: 275px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.664);
+}
+
+main .form-page .btn {
+  color: white;
+  width: 100px;
+  background-color: rgb(4, 4, 37);
+  position: absolute;
+  top: 85%;
+  left: 78%;
+}
+main .form-page .btn:hover {
+  background-color: blue;
+  cursor: pointer;
+  box-shadow: 10px 10px 18px 0px rgba(36, 43, 222, 0.75);
+  -webkit-box-shadow: 10px 10px 18px 0px rgba(36, 43, 222, 0.75);
+  -moz-box-shadow: 10px 10px 18px 0px rgba(36, 43, 222, 0.75);
 }
