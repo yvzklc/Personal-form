@@ -118,6 +118,10 @@ main .form-page p {
   color: gray;
 }
 
+main .form-page label {
+  display: block;
+  padding-bottom: 10px;
+}
 main .form-page input {
   width: 275px;
   border-radius: 5px;
