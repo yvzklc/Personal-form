@@ -107,7 +107,7 @@ main .form-page {
   margin-left: 310px;
   margin-top: 23px;
   border-radius: 5px;
-  color: rgb(30, 30, 119);
+  color: rgb(4, 4, 104);
 }
 main .form-page p {
   font-size: 12px;
@@ -131,7 +131,7 @@ main .form-page input {
 main .form-page .btn {
   color: white;
   width: 100px;
-  background-color: rgb(4, 4, 37);
+  background-color: rgb(4, 4, 104);
   position: absolute;
   top: 85%;
   left: 78%;
