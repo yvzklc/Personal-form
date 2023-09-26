@@ -107,3 +107,17 @@ main .step-page ul li .number3:hover{
 main .step-page ul li .number4:hover{
     background-color: blueviolet;
 }
+
+main .form-page{
+    width: 320px;
+    height: 430px;
+    margin-left: 310px;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+main .form-page input{
+    width: 275px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.664);
+}
