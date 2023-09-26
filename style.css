@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-* {
-}
+
 body {
   background-color: #d2e0fb;
   font-family: "Lato", sans-serif;
@@ -119,6 +118,7 @@ main .form-page p {
 }
 
 main .form-page label {
+    font-weight: bold;
   display: block;
   padding-bottom: 10px;
 }
