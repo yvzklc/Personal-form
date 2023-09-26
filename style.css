@@ -137,9 +137,13 @@ main .form-page .btn {
   left: 78%;
 }
 main .form-page .btn:hover {
-  background-color: blue;
+ 
   cursor: pointer;
   box-shadow: 10px 10px 18px 0px rgba(36, 43, 222, 0.75);
   -webkit-box-shadow: 10px 10px 18px 0px rgba(36, 43, 222, 0.75);
   -moz-box-shadow: 10px 10px 18px 0px rgba(36, 43, 222, 0.75);
+  width: 125px;
+  transform: scale(1.1);
+  letter-spacing: 5px;
+  transition: 1.5s;
 }
